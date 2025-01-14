@@ -1,0 +1,16 @@
+---
+layout: page.liquid
+title: project x
+
+pagination:
+  data: collections.project
+  size: 1
+  alias: project
+
+permalink: "{{ project.data.title | slugify }}/"
+---
+
+{{ project.content }}
+
+
+
