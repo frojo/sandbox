@@ -4,7 +4,7 @@ title: "luigi"
 tags: "project"
 ---
 
-<a href="/files/luigi.gba">click here</a> to download the game
+[click here](/files/luigi.gba) to download the game. this is a Gameboy Advanced ROM so you need an emulator to play it
 
 
 you can play it [with this!](https://gba.nicholas-vancise.dev/) or also [this](https://mgba.io/)
