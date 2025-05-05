@@ -6,16 +6,18 @@ title: index
 <p>hi! this is my (fran) website where I put some things i've been noodling on</p>
 
 <h1>moons</h1>
-<p>sometimes i like working on a different thing every month. i try to time it by working from full moon to full moon</p>
+<p>sometimes i like working on a different thing every month. i like to work from full moon to full moon</p>
 
-{%- for project in collections.moon reversed -%}
-  {% render "moon_documentation.liquid", project: project %}
-{%- endfor -%} 
-
-<h1>other things</h1>
+<ul>
+  {%- for project in collections.moon reversed -%}
+  {% comment %} {% render "project_item.liquid", project: project %} {% endcomment %}
+  <li>
+    <a href="/{{ project.data.title | slugify }}/">{{ project.data.title }} ({{project.data.month_year}})</a>
+  </li>
+  {%- endfor -%}
+</ul>
 
 
 {% comment %} {%- for project in collections.project reversed -%}
-  {% render "project_item.liquid", project: project %}
+{% render "project_item.liquid", project: project %}
 {%- endfor -%} {% endcomment %}
-

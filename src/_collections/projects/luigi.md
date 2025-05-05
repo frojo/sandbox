@@ -1,7 +1,11 @@
 ---
 id: "luigi"
 title: "luigi"
-tags: "project"
+month_year: "jan 25"
+date: 2025-01
+tags:
+    - "project"
+    - "moon"
 ---
 
 [click here](/files/luigi.gba) to download the game. 
