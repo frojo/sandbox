@@ -15,32 +15,14 @@
 
 
 body {
-  margin: 0px;
-
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-
-  /* not too wide */
-  max-width: 700px;
-
-  background-size: cover;
-  background-position: center center;
-
   background-color: var(--bg-color);
-  /*
-  */
-
-  /* 
-  image-rendering: pixelated;
-  */
+  margin: 0px;
 }
+
 
 button,
 body {
   font-family: "Times New Roman", serif;
-  font-size: 1em;
 }
 
 
@@ -71,182 +53,37 @@ img {
 }
 
 
+.page {
+  display: flex;
+  justify-content: center;
 
-#page {
-  /* nice big margins give you room to breathe*/
+  font-size: 18px;
+
+
+  /* 
+  image-rendering: pixelated;
+  */
+}
+
+.content {
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 80px;
   padding-bottom: 80px;
 
   /* not too wide */
-  max-width: 900px;
+  max-width: 700px;
 
-}
-
-
-/* header nav bar*/
-
-#header {
-  margin-bottom: 3em;
-
-  /* i think it's nice when u can make the words jumble
-  min-width: 280px;
-  */
-}
-
-#name {
-  display: inline;
-  font-size: 1.7em;
-  text-decoration: inherit;
-}
-
-#name:hover {
-  display: inline;
-
-  /* disable background color on hover */
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-
-#name:visited {
-  color: var(--text-color);
-}
-
-
-/* container for menu items (work, about blog) */
-#header-menu-wrapper {
-  float: right;
-}
-
-.header-menu-item {
-  font-size: 1.5em;
-
-  display: inline;
-  margin-left: 14px;
-  margin-right: 14px;
-
-}
-
-
-/* project list page */
-
-.project-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.project-title {
-  font-size: 28px;
-  display: inline;
-}
-
-.project-subtitle {
-  font-size: 16px;
-  margin-left:32px;
-  display: inline;
-}
-
-/* CV */
-
-.cv {
-}
-
-.cv h1 {
-  font-size: 1em;
-  color: var(--text-color);
-}
-
-.cv p {
-  font-size: 1.2em;
-}
-
-.cv .date {
-  font-style: italic;
-  color: grey;
-  font-size: .7em;
-}
-
-
-/* archive view*/
-.archive-item {
-  margin-top: 4px;
-  margin-bottom: 4px;
-  white-space: nowrap;
-
-  font-size: 1em;
-}
-
-.archive-title {
-  font-size: 1.4em;
-  display: inline-block;
-  white-space: normal;
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-
-.archive-title:hover {
-  color: white;
-  background-color: black;
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
-
-.featured-item {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.featured-title {
-  font-size: 32px;
-}
-
-.archive-date {
-  font-size: .9em;
-  display: inline-block;
-  margin-right: 16px;
-
-  /* nice */
-  width: 5em;
-}
-
-.about {
-}
-
-/* classes for the weird interactive theming */
-
-/* hover effects */
-
-.blacked-out {
-  left: 1000px;
-  color: black;
-  background-color: black;
-}
-
-.invisible {
-  opacity: 0;
-}
-
-.waves-bg {
-  /* livingstills.nl */
-  background-image: url(assets/waves.gif);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.black-bg {
-  background-color: black;
+  
 }
 
 
 
 /* mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
 
-  body {
-    padding: 36px;
+  .content {
+    padding: 1rem;
     /* 
     font-size: 3em;
     */

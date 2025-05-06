@@ -1,24 +1,31 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <title>sandbox</title>
+<head>
+  <title>sandbox</title>
 
-    <link rel="icon" href="/assets/transparent-favicon.png" />
+  <link rel="icon" href="/assets/transparent-favicon.png" />
 
-    <link rel="stylesheet" type="text/css" href="/main.css" />
+  <link rel="stylesheet" type="text/css" href="/main.css" />
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% comment %} <script src="/main.js"></script> {% endcomment %}
-  </head>
+  {% comment %}
+  <script src="/main.js"></script> {% endcomment %}
+</head>
 
-  {% comment %} <body onload="init()"> {% endcomment %}
+{% comment %}
+
+<body onload="init()"> {% endcomment %}
+
   <body>
-
-    <!-- content -->
-    {{ content }}
+    <div class="page">
+      <main class="content">
+        <!-- content -->
+        {{ content }}
+      </main>
+    </div>
   </body>
 
 </html>
