@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ds_game.md",
+                "file": "src/_collections/projects/ds_game.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "ds_game"
@@ -170,8 +170,23 @@
   },
   "active": "3374ac80a5a04965",
   "lastOpenFiles": [
-    "gardening.md",
+    "public/files/images/Pasted image 20250511195327.png",
+    "src/files/images/Pasted image 20250511195327.png",
+    "public/files/images/Pasted image 20250511195316.png",
+    "src/files/images/Pasted image 20250511195316.png",
+    "src/_collections/projects/gardening.md",
+    "src/_collections/projects/ds_game.md",
+    "public/files/images/Pasted image 20250511191539.png",
+    "src/files/images/Pasted image 20250511191539.png",
+    "src/files/images/Pasted image 20250511191351.png",
+    "public/files/images/Pasted image 20250511191351.png",
+    "src/files/images/Pasted image 20250511191025.png",
+    "public/files/images/Pasted image 20250511191301.png",
+    "src/files/images/Pasted image 20250511191301.png",
+    "public/files/images",
+    "src/files/images",
     "ds_game.md",
+    "gardening.md",
     "longnight24.md",
     "luigi.md",
     "snow25.md"

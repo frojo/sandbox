@@ -5,11 +5,10 @@ title: index
 
 <p>hi! this is my (fran) website where I put some things i've been noodling on</p>
 
-<h1>moons</h1>
-<p>sometimes i like working on a different thing every month. i like to work from full moon to full moon</p>
+<h1>posts</h1>
 
 <ul>
-  {%- for project in collections.moon reversed -%}
+  {%- for project in collections.project reversed -%}
   {% comment %} {% render "project_item.liquid", project: project %} {% endcomment %}
   <li>
     <a href="/{{ project.data.title | slugify }}/">{{ project.data.title }} ({{project.data.month_year}})</a>
