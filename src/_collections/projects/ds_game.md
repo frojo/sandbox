@@ -36,6 +36,15 @@ looks like this
 ![](../../files/images/Pasted%20image%2020250511195327.png)
 
 ---
+ok what i'm going to try to do is render a background
+
+ok looking at examples here <https://github.com/devkitPro/nds-examples/tree/master/Graphics/Backgrounds>
+
+the 256 and 16 bit color examples look the same....
+
+i wonder how they get the image in the right format
+
+---
 
 
 
