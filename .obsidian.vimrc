@@ -1,1 +1,1 @@
-imap <C-l> <Esc>
+map <C-l> <Esc>
