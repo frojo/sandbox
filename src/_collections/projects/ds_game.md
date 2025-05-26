@@ -8,6 +8,21 @@ tags:
   - moon
   - post
 ---
+# 5/26
+ok another side quest to [blockds](https://blocksds.skylyrac.net/docs/)
+
+we are in blocksds world now woo. was pretty painless actually woo
+
+---
+# 5/24
+i will def get back to the sprite animation, but i went on a little meander into how the video ram stuff works.  going to convert the bitmap background to a tiled backbround
+
+---
+# 5/23
+
+lets see if we can animate an idle animation
+![](../../files/images/robert.png)
+---
 5/21
 ![](../../files/images/chickenwing.png)
 lol it's too big
