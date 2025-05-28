@@ -8,6 +8,15 @@ tags:
   - moon
   - post
 ---
+# 5/28
+
+got the dumb sprite to render :)
+
+now to animate
+![](../../files/images/Peek%202025-05-28%2019-21.gif)
+
+
+---
 # 5/26
 ok another side quest to [blockds](https://blocksds.skylyrac.net/docs/)
 
