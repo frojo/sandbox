@@ -8,6 +8,19 @@ tags:
   - moon
   - post
 ---
+* draw player sprite
+* figure out color palette stuff
+	* 16 colors with gradients?
+* gets smaller as they get away from camera
+* can talk with npc
+* new background
+* sound
+
+
+# 6/1
+hehe
+![](../../files/images/Kooha-2025-06-01-17-33-42.gif)
+
 # 5/28
 
 got the dumb sprite to render :)
