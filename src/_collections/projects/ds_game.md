@@ -16,6 +16,12 @@ tags:
 * new background
 * sound
 
+# 6/3 
+
+okay let's do the mode7 thing
+<https://www.coranac.com/tonc/text/mode7ex.htm#sec-intro>
+
+ok wtf this is so much
 
 # 6/1
 hehe
