@@ -8,6 +8,7 @@ npm run build
 
 # auto git commit and upload
 git add .
+git status
 git commit -m "autocommit :)"
 git push
 
