@@ -14,4 +14,10 @@ git push
 # upload to droplet
 rsync -rP -e ssh public/ root@165.227.199.25:/srv/www/sandbox/
 
-# cp -r public/* /srv/www/sandbox/
+
+# todo
+# - ssh key droplet
+# - gitignore public/ and src/assets
+# - switch over to srcht
+# - ssh key srcht?
+#
