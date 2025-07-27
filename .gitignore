@@ -1,1 +1,8 @@
 node_modules/
+
+public/
+
+# dont git upload any assets that might be heavy
+*.jpg
+*.png
+*.glb
