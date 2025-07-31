@@ -9,6 +9,7 @@ npm run build
 # auto git commit and upload
 git add .
 git status
+echo "done status"
 git commit -m "autocommit :)"
 
 echo "done comiting"
