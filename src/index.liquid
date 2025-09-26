@@ -3,15 +3,23 @@ layout: page.liquid
 title: index
 ---
 
-<p>hi! this is my (fran) website where I put some things i've been noodling on</p>
+<p>hello! click on things :)</p>
 
-<h1>posts</h1>
+<h1>things</h1>
 
 <ul>
   {%- for project in collections.project reversed -%}
   {% comment %} {% render "project_item.liquid", project: project %} {% endcomment %}
   <li>
-    <a href="/{{ project.data.title | slugify }}/">{{ project.data.title }} ({{project.data.month_year}})</a>
+    {%- if project.data.month_year -%}
+    <a href="/{{ project.data.title | slugify }}/">
+      {{ project.data.title }} ({{project.data.month_year}})
+    </a>
+    {%- else -%}
+    <a href="/{{ project.data.title | slugify }}/">
+      {{ project.data.title }}    
+    </a>
+    {%- endif -%}
   </li>
   {%- endfor -%}
 </ul>
